@@ -1,6 +1,13 @@
 module.exports = {
   base: "/vitu-docs/",
 
+  head: [
+    [
+      "link",
+      { rel: "icon", href: "https://vitu.molit.eu/favicons/favicon.ico" }
+    ]
+  ],
+
   locales: {
     // The key is the path for the locale to be nested under.
     // As a special case, the default locale can use '/' as its path.
@@ -28,7 +35,9 @@ module.exports = {
           }
         },
         lastUpdated: "Zuletzt aktualisiert",
-        nav: [{ text: "Nested", link: "/nested/" }],
+        nav: [
+          /*{ text: "Nested", link: "/nested/" }*/
+        ],
         algolia: {},
         sidebar: {
           "/": [
@@ -58,10 +67,17 @@ module.exports = {
         },
         // algolia docsearch options for current locale
         algolia: {},
-        nav: [{ text: "Nested", link: "/en/nested/" }],
+        nav: [
+          /*{ text: "Nested", link: "/en/nested/" }*/
+        ],
         sidebar: {
           "/en/": [
-            /* ... */
+            {
+              title: "Information", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: []
+            }
           ],
           "/en/nested/": [
             /* ... */
