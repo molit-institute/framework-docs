@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/vitu-docs",
+  base: "/vitu-docs/",
 
   locales: {
     // The key is the path for the locale to be nested under.
