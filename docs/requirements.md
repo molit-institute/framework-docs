@@ -30,7 +30,7 @@ Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller vier Ko
 ### VM3: Data
 
 - Betriebssystem: Ubuntu Server 18.04 LTS  
-- Arbeitsspeicher: 10GB RAM  
+- Arbeitsspeicher: 8GB RAM  
 - Prozessor: Quad Core @2Ghz  
 - Internes Netzwerk: Portfreigabe für Port 8088 (muss nur von VITU-VM erreichbar sein)  
 - DNS Eintrag + SSL Zertifikat (von interner CA, da nicht von außen erreichbar)
