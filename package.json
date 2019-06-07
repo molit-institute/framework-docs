@@ -1,15 +1,14 @@
 {
   "name": "vitu-docs",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Documentation for the Virtual Tumor Board VITU",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "",
-  "license": "Apache-2.0",
+  "author": "MOLIT Institut gGmbH",
   "devDependencies": {
-    "vuepress": "^1.0.0-beta.2"
+    "vuepress": "^1.0.0-beta.2",
+    "vuepress-plugin-sitemap": "^2.1.2"
   }
 }

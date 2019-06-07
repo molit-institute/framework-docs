@@ -1,11 +1,15 @@
+const path = require("path");
+
 module.exports = {
   base: "/vitu-docs/",
 
   head: [
+    ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     [
       "link",
-      { rel: "icon", href: "https://vitu.molit.eu/favicons/favicon.ico" }
-    ]
+      { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }
+    ],
+    ["meta", { name: "theme-color", content: "#148898" }]
   ],
 
   locales: {
@@ -14,12 +18,12 @@ module.exports = {
     "/": {
       lang: "de-DE",
       title: "VITU Docs",
-      description: "Virtuelles Tumorboard"
+      description: "Dokumentation für das Virtuelle Tumorboard VITU"
     },
     "/en/": {
       lang: "en-US", // this will be set as the lang attribute on <html>
       title: "VITU Docs",
-      description: "Virtual Tumor Board"
+      description: "Documentation for the Virtual Tumor Board VITU"
     }
   },
 
@@ -36,20 +40,18 @@ module.exports = {
         },
         lastUpdated: "Zuletzt aktualisiert",
         nav: [
-          /*{ text: "Nested", link: "/nested/" }*/
+          { text: "Anleitung", link: "/guide/" },
+          { text: "Demo", link: "https://demo.molit.eu" }
         ],
         algolia: {},
         sidebar: {
-          "/": [
+          "/guide/": [
             {
               title: "Informationen", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["/", "requirements"]
+              children: ["", "requirements"]
             }
-          ],
-          "/nested/": [
-            /* ... */
           ]
         }
       },
@@ -68,22 +70,34 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          /*{ text: "Nested", link: "/en/nested/" }*/
+          { text: "Guide", link: "/en/guide/" },
+          { text: "Demo", link: "https://demo.molit.eu" }
         ],
         sidebar: {
-          "/en/": [
+          "/en/guide/": [
             {
               title: "Information", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
               children: []
             }
-          ],
-          "/en/nested/": [
-            /* ... */
           ]
         }
       }
+    }
+  },
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@assets": path.resolve(__dirname, "../.vuepress/assets")
+      }
+    }
+  },
+
+  plugins: {
+    sitemap: {
+      hostname: "https://docs.molit.eu/vitu-docs"
     }
   }
 };

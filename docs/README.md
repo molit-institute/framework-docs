@@ -1,3 +1,9 @@
-# Einführung
-
-**VITU** ist eine Abkürzung und steht für **Vi**rtuelles **Tu**morboard.
+---
+home: true
+heroImage: /logo.png
+heroText: VITU Docs
+tagline: Dokumentation
+actionText: Get Started →
+actionLink: /guide/
+footer: MOLIT Institut gGmbH
+---
