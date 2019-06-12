@@ -2,4 +2,4 @@
 
 Coming soon
 
-![An image](~@assets/img/logo.png)
+![VITU Logo](~@assets/img/logo.png)
