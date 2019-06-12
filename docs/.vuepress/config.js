@@ -17,12 +17,12 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     "/": {
       lang: "de-DE",
-      title: "VITU Docs",
+      title: "VITU Docs v2019.2",
       description: "Dokumentation für das Virtuelle Tumorboard VITU"
     },
     "/en/": {
       lang: "en-US", // this will be set as the lang attribute on <html>
-      title: "VITU Docs",
+      title: "VITU Docs v2019.2",
       description: "Documentation for the Virtual Tumor Board VITU"
     }
   },
@@ -41,7 +41,8 @@ module.exports = {
         lastUpdated: "Zuletzt aktualisiert",
         nav: [
           { text: "Anleitung", link: "/guide/" },
-          { text: "Demo", link: "https://demo.molit.eu" }
+          { text: "Demo", link: "https://demo.molit.eu" },
+          { text: "Impressum", link: "https://molit.eu/impressum/" }
         ],
         algolia: {},
         sidebar: {
@@ -50,7 +51,7 @@ module.exports = {
               title: "Informationen", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["", ["requirements", "Technische Voraussetzungen"]]
+              children: ["", "requirements", "architecture"]
             }
           ]
         }
@@ -71,7 +72,8 @@ module.exports = {
         algolia: {},
         nav: [
           { text: "Guide", link: "/en/guide/" },
-          { text: "Demo", link: "https://demo.molit.eu" }
+          { text: "Demo", link: "https://demo.molit.eu" },
+          { text: "Imprint", link: "https://molit.eu/en/imprint/" }
         ],
         sidebar: {
           "/en/guide/": [

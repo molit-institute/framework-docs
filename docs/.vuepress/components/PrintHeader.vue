@@ -18,7 +18,7 @@ export default {};
 <style lang="css" scoped>
 @media screen {
   .print-header-wrapper {
-    margin-top: 1.6rem !important;
+    margin-top: 2rem !important;
   }
 
   .print-header {
@@ -29,6 +29,10 @@ export default {};
 @media print {
   .print-header-wrapper {
     margin-top: 0 !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   .print-header {
@@ -38,7 +42,7 @@ export default {};
   }
 
   .print-header div img {
-    height: 1.6cm;
+    height: 1.2cm;
     width: auto;
   }
 }

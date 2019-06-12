@@ -1,6 +1,6 @@
-<print-header/>
-
 # Technische Voraussetzungen
+
+<print-header/>
 
 Die im Folgenden angegebenen Werte sind Richtwerte, die sich je nach Anwendungsfall noch ändern können.
 VITU Release 2019.1 benötigt zur Teilnahme an der Videokonferenz neben einem aktuellen FireFox oder Chrome Browser (Unterstützte Browser: Chrome 58+ & Firefox 65+), eine Webcam und Mikrofon. Die eingesetzte Software VITU ist komplett Browser basiert. Unsere Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt. Falls vorhanden, sollten die ausgehenden Firewallregeln folgende URLs auf port 443 TCP erlauben. 
