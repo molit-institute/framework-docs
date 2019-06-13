@@ -1,7 +1,10 @@
 const path = require("path");
 
+const hostname = "https://docs.molit.eu";
+const base = "/vitu-docs/";
+
 module.exports = {
-  base: "/vitu-docs/",
+  base,
 
   head: [
     ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
@@ -99,7 +102,7 @@ module.exports = {
 
   plugins: {
     sitemap: {
-      hostname: "https://docs.molit.eu/vitu-docs"
+      hostname: hostname + base
     }
   }
 };

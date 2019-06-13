@@ -1,6 +1,6 @@
 <template>
   <div class="print-header-wrapper">
-    <a href="#" class="pdf-download">PDF Download</a>
+    <a :href="pdfDownloadUrl" class="pdf-download">PDF Download</a>
     <div class="print-header">
       <div>
         <img src="../assets/img/logo-molit.png" />
@@ -17,6 +17,10 @@ export default {
   computed: {
     fileName() {
       return this.urlToFileName(window.location.href);
+    },
+
+    pdfDownloadUrl() {
+      return "https://molit.eu/docs/vitu-docs/" + this.fileName;
     }
   },
 
