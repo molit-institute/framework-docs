@@ -7,3 +7,5 @@
 VITU soll die ortsunabhängige, standardisierte Vernetzung von Experten ermöglichen und diese in der Planung und Durchführung von Tumorboards unterstützen.
 
 Detaillierte Informationen zu den Releases werden in regelmäßigen Abständen hier hinzugefügt.
+
+<pdf-download />
