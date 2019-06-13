@@ -1,5 +1,6 @@
 <template>
   <div class="print-header-wrapper">
+    <a href="#" class="pdf-download">PDF Download</a>
     <div class="print-header">
       <div>
         <img src="../assets/img/logo-molit.png" />
@@ -12,7 +13,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    fileName() {
+      return this.urlToFileName(window.location.href);
+    }
+  },
+
+  methods: {
+    urlToFileName(url) {
+      if (!url) {
+        return "";
+      }
+      return url.replace(/[^a-z0-9]/gi, "_").toLowerCase();
+    }
+  },
+};
 </script>
 
 <style lang="css" scoped>
@@ -27,6 +43,10 @@ export default {};
 }
 
 @media print {
+  .pdf-download {
+    display: none;
+  }
+
   .print-header-wrapper {
     margin-top: 0 !important;
     position: absolute;
