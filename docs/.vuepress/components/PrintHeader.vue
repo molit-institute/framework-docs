@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       pdfDownloadUrl: ""
-    }
+    };
   },
 
   methods: {
@@ -30,7 +30,12 @@ export default {
   },
 
   mounted() {
-    this.pdfDownloadUrl = "https://molit.eu/docs/vitu-docs/" + this.urlToFileName(window.location.href) + ".pdf";
+    this.pdfDownloadUrl =
+      "https://molit.eu/docs/vitu-docs/" +
+      this.urlToFileName(
+        location.protocol + "//" + location.host + location.pathname
+      ) +
+      ".pdf";
   }
 };
 </script>
