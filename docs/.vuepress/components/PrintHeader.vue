@@ -14,13 +14,9 @@
 
 <script>
 export default {
-  computed: {
-    fileName() {
-      return this.urlToFileName(window.location.href);
-    },
-
-    pdfDownloadUrl() {
-      return "https://molit.eu/docs/vitu-docs/" + this.fileName;
+  data() {
+    return {
+      pdfDownloadUrl: ""
     }
   },
 
@@ -32,6 +28,10 @@ export default {
       return url.replace(/[^a-z0-9]/gi, "_").toLowerCase();
     }
   },
+
+  mounted() {
+    this.pdfDownloadUrl = "https://molit.eu/docs/vitu-docs/" + this.urlToFileName(window.location.href) + ".pdf";
+  }
 };
 </script>
 
