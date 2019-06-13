@@ -1,6 +1,6 @@
 <template>
   <div class="print-header-wrapper">
-    <a :href="pdfDownloadUrl" class="pdf-download">PDF Download</a>
+    <a :href="pdfDownloadUrl" class="pdf-download"><img src="../assets/img/PDF_24.png" class="pdf-download-icon" />PDF Download</a>
     <div class="print-header">
       <div>
         <img src="../assets/img/logo-molit.png" />
@@ -48,6 +48,16 @@ export default {
 
   .print-header {
     display: none;
+  }
+
+  .pdf-download {
+    display: flex;
+    align-items: center;
+  }
+
+  .pdf-download-icon {
+    margin-right: 22px;
+    height: 22px;
   }
 }
 
