@@ -4,7 +4,7 @@
 
 ![Architecture](~@assets/img/architecture.png)
 
-Die notwendige Infrastruktur um VITU und das Fragebogentool betreiben zu können umfasst **3 (virtuelle) Server:** **Application Server, VideoServer, Data Server**. Die (virtuellen) Server werden unter **Ubuntu 18.04 LTS** betrieben, die automatischen Sicherheitsupdates für Betriebssystem und aus der Paketverwaltung installierten Applikationen sind aktiviert. 
+Die notwendige Infrastruktur um VITU und das Fragebogentool betreiben zu können umfasst **drei (virtuelle) Server:** **Application Server, VideoServer, Data Server**. Die (virtuellen) Server werden unter **Ubuntu 18.04 LTS** betrieben, die automatischen Sicherheitsupdates für Betriebssystem und aus der Paketverwaltung installierten Applikationen sind aktiviert. 
 
 Die Firewall der einzelnen Server sind nach außen bis auf die benötigten Ports komplett geschlossen. Da das virtuelle Tumorboard (VITU) auch mit externen Experten genutzt werden soll ist ein rein klinik-interner Betrieb nicht möglich. Zur Gewährleistung der Vertraulichkeit und Integrität der auf dem Data Server hinterlegten Patientendaten befindet sich der Data Server im internen Netzwerk. **Ein Zugriff von außen ist nur durch den Applikationsserver möglich**.
 

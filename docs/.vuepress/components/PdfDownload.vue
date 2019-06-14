@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a :href="pdfDownloadUrl" class="pdf-download">
+    <a :href="pdfDownloadUrl" class="pdf-download" target="_blank">
       <img src="../assets/img/PDF_24.png" class="pdf-download-icon" />
       PDF Download
     </a>
