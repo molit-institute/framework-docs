@@ -37,7 +37,7 @@ module.exports = {
         label: "Deutsch",
         serviceWorker: {
           updatePopup: {
-            message: "Es ist neuer Inhalt verfügbar.",
+            message: "Neue Inhalte verfügbar.",
             buttonText: "Aktualisieren"
           }
         },
@@ -45,7 +45,13 @@ module.exports = {
         nav: [
           { text: "Anleitung", link: "/guide/" },
           { text: "Demo", link: "https://demo.molit.eu" },
-          { text: "Impressum", link: "https://molit.eu/impressum/" }
+          { text: "Impressum", link: "https://molit.eu/impressum/" },
+          {
+            text: "Version",
+            items: [
+              { text: "v2019.1", link: "/guide/" }
+            ]
+          }
         ],
         algolia: {},
         sidebar: {
@@ -76,7 +82,13 @@ module.exports = {
         nav: [
           { text: "Guide", link: "/en/guide/" },
           { text: "Demo", link: "https://demo.molit.eu" },
-          { text: "Imprint", link: "https://molit.eu/en/imprint/" }
+          { text: "Imprint", link: "https://molit.eu/en/imprint/" },
+          {
+            text: "Version",
+            items: [
+              { text: "v2019.1", link: "/en/guide/" }
+            ]
+          }
         ],
         sidebar: {
           "/en/guide/": [
