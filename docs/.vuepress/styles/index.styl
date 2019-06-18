@@ -12,21 +12,22 @@ footer.page-edit .last-updated .prefix {
     color: #004a6b;
 }
 
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Lato|PT+Sans:400&display=swap');
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Lato', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PT Sans', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-}
-
 // Print
 @media print {
     @page {
         margin: 2cm;
+    }
+
+    // Fonts
+    @import url('https://fonts.googleapis.com/css?family=Lato|PT+Sans:400&display=swap');
+
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 400;
     }
 
     body {
