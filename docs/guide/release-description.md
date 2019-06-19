@@ -59,6 +59,6 @@ Organisationsname: MOLIT Institut gGmbH ([GitHub](https://github.com/molitinstit
   *  Individuelle Programmierung von Softwaremodulen nach gesonderter Vereinbarung
 
 ## 6. Was muss selbst erbracht werden?
-*  Die technischen Voraussetzungen für den Release müssen für eine Nutzung von **VITU** selbst realisiert werden, diese sind unter [Technische Voraussetzungen](/guide/requirements) einzusehen.
+*  Die technischen Voraussetzungen für den Release müssen für eine Nutzung von **VITU** selbst realisiert werden, diese sind unter [Technische Voraussetzungen](guide/requirements) einzusehen.
 
 <pdf-download />
