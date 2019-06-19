@@ -1,4 +1,4 @@
-# Release Beschreibung VITU 2019.1
+# Releasebeschreibung VITU 2019.1
 
 <print-header/>
 
