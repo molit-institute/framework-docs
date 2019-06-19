@@ -60,7 +60,7 @@ module.exports = {
               title: "Informationen", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["", "requirements", "architecture"]
+              children: ["", "release-description", "requirements", "architecture"]
             }
           ]
         }
