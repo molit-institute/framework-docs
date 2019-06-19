@@ -2,10 +2,10 @@
 
 <print-header/>
 
-## 1. Softwarename:
+## 1. Softwarename
 **VITU** - **VITU** ist eine Abkürzung und steht für **Vi**rtuelles **Tu**morboard
 
-## 2. Lizenzrechte:
+## 2. Lizenzrechte
 Open Source unter Apache 2.0 auf GitHub veröffentlicht.  
 Organisationsname: MOLIT Institut gGmbH (https://github.com/molitinstitute/)
 
@@ -13,7 +13,7 @@ Organisationsname: MOLIT Institut gGmbH (https://github.com/molitinstitute/)
 **VITU** ist eine prozessorientierte Informations- und Kommunikationsplattform zur Unterstützung von Tumorkonferenzen. Entwickelt vom MOLIT Institut ist die Software **VITU** web-basiert und folgt als Entwicklungsprojekt einem zyklischen Entwicklungsplan, mit drei Open Source veröffentlichten Releases pro Jahr.  
 **VITU** soll die ortsunabhängige, standardisierte Vernetzung von Experten ermöglichen und diese in der Planung und Durchführung von Tumorboards unterstützen. 
 
-## 4. Funktionsbeschreibung Release 2019.1
+## 4. Funktionsbeschreibung Release
 **VITU** besteht aus unterschiedlichen Komponenten: Arbeitsliste, Konferenzplaner, Videokonferenz und Dokumentation. Der Feature Release 2019.1 beinhaltet die funktionellen Komponenten: Arbeitsliste, Planer und Videokonferenz. Die Komponente Protokoll ist in **VITU** 2019.1 noch nicht funktionell.  
 **VITU** Release 2019.1 beinhaltet folgende Komponenten mit Features:
 
