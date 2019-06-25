@@ -3,9 +3,9 @@
 <print-header/>
 
 Die im Folgenden angegebenen Werte sind Richtwerte, die sich je nach Anwendungsfall noch ändern können.
-VITU Release 2019.1 benötigt zur Teilnahme an der Videokonferenz neben einem aktuellen FireFox oder Chrome Browser (Unterstützte Browser: Chrome 58+ & Firefox 65+), eine Webcam und Mikrofon. Die eingesetzte Software VITU ist komplett Browser basiert. Unsere Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt. Falls vorhanden, sollten die ausgehenden Firewallregeln folgende URLs auf port 443 TCP erlauben.
+**VITU** benötigt zur Teilnahme an der Videokonferenz neben einem aktuellen Firefox oder Chrome Browser (Unterstützte Browser: Chrome 58+ & Firefox 65+), eine Webcam und Mikrofon. Die eingesetzte Software VITU ist komplett browserbasiert. Die Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt. Falls vorhanden, sollten die ausgehenden Firewallregeln folgende URLs auf Port 443 TCP erlauben.
 
-Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller vier Komponenten (Arbeitsliste, Konferenzplaner, Videokonferenz und Protokoll) für Release 2019.1 sind aus technischer Sicht für den Administrator: zwei bis drei Server bzw. zwei bis drei VMs mit folgenden Anforderungen, je nach Konfiguration.
+Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller Komponenten sind aus technischer Sicht für den Administrator: zwei bis drei Server bzw. zwei bis drei VMs mit folgenden Anforderungen, je nach Konfiguration.
 
 ## Empfohlene Systemvoraussetzungen
 
