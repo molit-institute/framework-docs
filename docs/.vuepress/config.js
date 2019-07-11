@@ -48,9 +48,7 @@ module.exports = {
           { text: "Impressum", link: "https://molit.eu/impressum/" },
           {
             text: "Version",
-            items: [
-              { text: "v2019.1", link: "/guide/" }
-            ]
+            items: [{ text: "v2019.1", link: "/guide/" }]
           }
         ],
         algolia: {},
@@ -60,7 +58,18 @@ module.exports = {
               title: "Informationen", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["", "release-description", "requirements", "architecture", "installation-guide"]
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["installation-guide"]
             }
           ]
         }
@@ -85,9 +94,7 @@ module.exports = {
           { text: "Imprint", link: "https://molit.eu/en/imprint/" },
           {
             text: "Version",
-            items: [
-              { text: "v2019.1", link: "/en/guide/" }
-            ]
+            items: [{ text: "v2019.1", link: "/en/guide/" }]
           }
         ],
         sidebar: {
@@ -96,7 +103,18 @@ module.exports = {
               title: "Information", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["", "release-description", "requirements", "architecture", "installation-guide"]
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["installation-guide"]
             }
           ]
         }
