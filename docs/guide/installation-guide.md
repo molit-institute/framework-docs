@@ -165,3 +165,5 @@ Um die Keycloak-Instanz zu verwalten, lesen Sie bitte die [offizielle Dokumentat
 ### Konfigurieren Sie Ihre Firewall
 
 Während der Installation werden Ports gemäß der [Beispielarchitektur](architecture.md) geöffnet. Wenn Sie die Firewall-Konfiguration anpassen, achten Sie darauf, dass diese Ports offen bleiben.
+
+<pdf-download />

@@ -163,3 +163,5 @@ To manage the Keycloak instance, please see the [official docs](https://www.keyc
 ### Configure your firewall
 
 During installation, ports according to the [example architecture](architecture.md) are opened. If you adapt the firewall configuration, make sure to keep those ports open.
+
+<pdf-download />
