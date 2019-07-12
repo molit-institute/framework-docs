@@ -8,7 +8,7 @@
   },
   "author": "MOLIT Institut gGmbH",
   "devDependencies": {
-    "vuepress": "^1.0.1",
+    "vuepress": "^1.0.2",
     "vuepress-plugin-sitemap": "^2.1.2"
   }
 }
