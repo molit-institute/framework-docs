@@ -66,6 +66,6 @@ Die Komponente Protokoll ist in **VITU** 2019.1 noch nicht funktionell.
   *  Individuelle Programmierung von Softwaremodulen nach gesonderter Vereinbarung
 
 ## 6. Was muss selbst erbracht werden?
-*  Die technischen Voraussetzungen für den Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen](/vitu-docs/guide/requirements) einzusehen.
+*  Die technischen Voraussetzungen für den Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen](https://docs.molit.eu/vitu-docs/guide/requirements.html) einzusehen.
 
 <pdf-download />
