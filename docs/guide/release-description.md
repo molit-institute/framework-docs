@@ -7,7 +7,7 @@
 
 ## 2. Lizenzrechte
 Open Source unter Apache 2.0 auf GitHub veröffentlicht.  
-Organisationsname: MOLIT Institut gGmbH ([GitHub](https://github.com/molitinstitute/))
+Organisationsname: MOLIT Institut gGmbH ([GitHub](https://github.com/molit-institute/))
 
 ## 3. Beschreibung VITU Allgemein
 **VITU** ist eine prozessorientierte Informations- und Kommunikationsplattform zur Unterstützung von Tumorkonferenzen. Entwickelt vom MOLIT Institut ist die Software **VITU** web-basiert und folgt einem zyklischen Entwicklungsplan, mit drei veröffentlichten Releases pro Jahr, die jeweils öffentlich unter einer Open Source Lizenz verfügbar sind.  
@@ -54,7 +54,7 @@ Die Komponente Protokoll ist in **VITU** 2019.1 noch nicht funktionell.
 * Login-Daten werden an die Teilnehmer nicht über **VITU** direkt versendet, sondern müssen in Release 2019.1 separat kommuniziert werden.  
 
 ## 5. Was bietet MOLIT?
-* Download der veröffentlichten **VITU** Releases über [GitHub](https://github.com/molitinstitute/) 
+* Download der veröffentlichten **VITU** Releases über [GitHub](https://github.com/molit-institute/) 
 
 * Dienstleistungen nach Preisliste:
   *  Implementierungsberatung
