@@ -3,7 +3,11 @@
 <print-header/>
 
 Die im Folgenden angegebenen Werte sind Richtwerte, die sich je nach Anwendungsfall noch ändern können.
-**VITU** benötigt zur Teilnahme an der Videokonferenz neben einem aktuellen Firefox oder Chrome Browser (Unterstützte Browser: Chrome 58+ & Firefox 65+), eine Webcam und Mikrofon. Die eingesetzte Software VITU ist komplett browserbasiert. Die Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt. Falls vorhanden, sollten die ausgehenden Firewallregeln folgende URLs auf Port 443 TCP erlauben.
+
+**VITU** benötigt zur Teilnahme an der Videokonferenz neben einem aktuellen Firefox oder Chrome Browser (Unterstützte Browser: Chrome 58+ & Firefox 65+), eine Webcam und Mikrofon. Um den eigenen Bildschirm in der Videokonferenz via **Screensharing** teilen
+zu können, wird bei Chrome mindestens die Version 72 und bei Firefox mindestens die Version 66 benötigt. Alternativ kann in Chrome die Erweiterung [Janus WebRTC Screensharing](https://chrome.google.com/webstore/detail/janus-webrtc-screensharin/hapfgfdkleiggjjpfpenajgdnfckjpaj) installiert werden.
+
+Die eingesetzte Software VITU ist komplett browserbasiert. Die Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt. Falls vorhanden, sollten die ausgehenden Firewallregeln Zugriff auf Port 443 TCP erlauben.
 
 Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller Komponenten sind aus technischer Sicht für den Administrator: zwei bis drei Server bzw. zwei bis drei VMs mit folgenden Anforderungen, je nach Konfiguration.
 
