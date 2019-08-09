@@ -1,7 +1,7 @@
 # Beispielarchitektur
 
 ::: warning
-Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](/v2019.2/guide/architecture).
+Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.2/guide/architecture).
 :::
 
 <print-header />
