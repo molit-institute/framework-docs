@@ -20,12 +20,12 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     "/": {
       lang: "de-DE",
-      title: "VITU Docs v2019.1",
+      title: "VITU Docs",
       description: "Dokumentation für das Virtuelle Tumorboard VITU"
     },
     "/en/": {
       lang: "en-US", // this will be set as the lang attribute on <html>
-      title: "VITU Docs v2019.1",
+      title: "VITU Docs",
       description: "Documentation for the Virtual Tumor Board VITU"
     }
   },
@@ -43,17 +43,20 @@ module.exports = {
         },
         lastUpdated: "Zuletzt aktualisiert",
         nav: [
-          { text: "Anleitung", link: "/guide/" },
+          { text: "Anleitung", link: "/v2019.2/guide/" },
           { text: "Demo", link: "https://demo.molit.eu" },
           { text: "Impressum", link: "https://molit.eu/impressum/" },
           {
             text: "Version",
-            items: [{ text: "v2019.1", link: "/guide/" }]
+            items: [
+              { text: "v2019.2", link: "/v2019.2/guide/" },
+              { text: "v2019.1", link: "/v2019.1/guide/" }
+            ]
           }
         ],
         algolia: {},
         sidebar: {
-          "/guide/": [
+          "/v2019.1/guide/": [
             {
               title: "Informationen", // required
               collapsable: false, // optional, defaults to true
@@ -69,7 +72,26 @@ module.exports = {
               title: "Installation", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["installation-guide"]
+              children: []
+            }
+          ],
+          "/v2019.2/guide/": [
+            {
+              title: "Informationen", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: []
             }
           ]
         }
@@ -89,16 +111,19 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          { text: "Guide", link: "/en/guide/" },
+          { text: "Guide", link: "/en/v2019.2/guide/" },
           { text: "Demo", link: "https://demo.molit.eu" },
           { text: "Imprint", link: "https://molit.eu/en/imprint/" },
           {
             text: "Version",
-            items: [{ text: "v2019.1", link: "/en/guide/" }]
+            items: [
+              { text: "v2019.2", link: "/en/v2019.2/guide/" },
+              { text: "v2019.1", link: "/en/v2019.1/guide/" }
+            ]
           }
         ],
         sidebar: {
-          "/en/guide/": [
+          "/en/v2019.1/guide/": [
             {
               title: "Information", // required
               collapsable: false, // optional, defaults to true
@@ -114,7 +139,26 @@ module.exports = {
               title: "Installation", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: ["installation-guide"]
+              children: []
+            }
+          ],
+          "/en/v2019.2/guide/": [
+            {
+              title: "Information", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: []
             }
           ]
         }
