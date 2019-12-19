@@ -84,7 +84,9 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture"
+                "architecture",
+                "faq",
+                "manual"
               ]
             },
             {
@@ -151,7 +153,9 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture"
+                "architecture",
+                "faq",
+                "manual",
               ]
             },
             {
