@@ -1,0 +1,26 @@
+image: node:10
+
+stages:
+  - deploy
+
+pages:
+  stage: deploy
+  cache:
+    policy: pull
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - node_modules/
+  before_script:
+    - npm install
+  script:
+    - rm -rf docs/.vuepress/dist/*
+    - npm run docs:build
+    - mkdir public
+    - cp -r docs/.vuepress/dist/* public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+  tags:
+    - docker
