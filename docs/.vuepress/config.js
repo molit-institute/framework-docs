@@ -43,12 +43,13 @@ module.exports = {
         },
         lastUpdated: "Zuletzt aktualisiert",
         nav: [
-          { text: "Anleitung", link: "/v2019.2/guide/" },
+          { text: "Anleitung", link: "/v2019.3/guide/" },
           { text: "Demo", link: "https://demo.molit.eu" },
           { text: "Impressum", link: "https://molit.eu/impressum/" },
           {
             text: "Version",
             items: [
+              { text: "v2019.3", link: "/v2019.3/guide/" },
               { text: "v2019.2", link: "/v2019.2/guide/" },
               { text: "v2019.1", link: "/v2019.1/guide/" }
             ]
@@ -95,6 +96,27 @@ module.exports = {
               sidebarDepth: 1, // optional, defaults to 1
               children: []
             }
+          ],
+          "/v2019.3/guide/": [
+            {
+              title: "Informationen", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture",
+                "faq",
+                "manual"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: []
+            }
           ]
         }
       },
@@ -119,6 +141,7 @@ module.exports = {
           {
             text: "Version",
             items: [
+              { text: "v2019.3", link: "/en/v2019.3/guide/" },
               { text: "v2019.2", link: "/en/v2019.2/guide/" },
               { text: "v2019.1", link: "/en/v2019.1/guide/" }
             ]
@@ -155,7 +178,28 @@ module.exports = {
                 "requirements",
                 "architecture",
                 "faq",
-                "manual",
+                "manual"
+              ]
+            },
+            {
+              title: "Installation", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: []
+            }
+          ],
+          "/en/v2019.2/guide/": [
+            {
+              title: "Information", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture",
+                "faq",
+                "manual"
               ]
             },
             {
