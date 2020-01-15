@@ -1,4 +1,6 @@
-# Releasebeschreibung VITU 2019.2
+Veröffentlicht werden soll es unter: https://docs.molit.eu/vitu-docs/v2019.3/guide/release-description.html
+
+# Releasebeschreibung VITU 2019.3
 
 <print-header/>
 
@@ -14,49 +16,54 @@ Organisationsname: MOLIT Institut gGmbH ([GitHub](https://github.com/molit-insti
 **VITU** soll die ortsunabhängige, standardisierte Vernetzung von Expertenteams ermöglichen und diese in der Planung und Durchführung von Tumorboards unterstützen. 
 
 ## 4. Funktionsbeschreibung Release
-Der Feature Release 2019.2 beinhaltet die funktionellen Komponenten:  
+Der Feature Release 2019.3 beinhaltet die funktionellen Komponenten:  
 * Login
 * Administrationsbereich
 * Arbeitsliste
-* Konferenzplaner 
+* Planer 
 * Videokonferenz
 * Protokoll 
 
-**VITU** Release 2019.2 beinhaltet folgende Komponenten mit Features:
+**VITU** Release 2019.3 beinhaltet folgende Komponenten mit Features:
 
 ### 4.1 Login
-* Die Nutzung von **VITU** erfordert einen Login des Nutzers, das Rollenkonzept unterscheidet zwischen den Rollen Administrator, Moderator und Teilnehmer. Diese Rollen können in einem späteren Release von Nutzern mit Administratorrolle zugewiesen werden. Die Benutzerverwaltung ist in VITU 2019.2 noch nicht verfügbar.
-* Login-Daten werden an die Teilnehmer nicht über **VITU** direkt versendet, sondern müssen in Release 2019.2 noch separat kommuniziert werden.
+* Die Nutzung von **VITU** erfordert einen Login des Nutzers, das Rollenkonzept unterscheidet zwischen den Rollen Administrator, Moderator und Teilnehmer. Diese Rollen können durch einen Benutzer mit Administratorrolle im Administrationsbereich (siehe Punkt 4.2) zugewiesen werden. 
+* Login-Daten werden an die Benutzer nicht über **VITU** direkt versendet, sondern werden aus Keycloak versendet.
+* Die erstmalige Anmeldung erfolgt über einen Aktivierungslink mit persönlicher Kennwortvergabe.
+* Keycloak ermöglicht bei Vergessen des Kennworts einen Self-Service, um eine zeitnahe Einwahl zu **VITU** zu gewährleisten.
+
 
 ### 4.2 Administrationsbereich
 * Durch Auswahl des Schraubenschlüsselsymbols gelangt der Nutzer mit Administratorrolle in den Administrationsbereich: 
-  *  Arbeitsliste: Anpassungen der Statusliste - Aus einer Liste von vorgegebenen Stati kann gewählt werden. Nicht verwendete Stati können deaktiviert werden. Die Stati können mittels drag&drop neu sortiert werden.
-  *  Benutzer: Die Liste der Nutzer kann eingesehen werden. Die Benutzerverwaltung ist in VITU 2019.2 noch nicht verfügbar. 
-  *  Konferenz: Anpassungen der Bandbreite und des Bildformates sind möglich. Ein Ad-hoc-Raum kann aktiviert/deaktiviert und ein Name für diesen persistenten Raum vergeben werden. 
-  *  Videostreams zuschneiden: Anpassung des Videostreams, um ein Abschneiden an den Seiten des Videostreams zu verhindern, sind möglich.
+  *  Arbeitsliste: Anpassungen der Statusliste - Aus einer Liste von vorgegebenen Status kann gewählt werden. Nicht verwendete Status können inaktiviert werden. Die Status können neu sortiert werden.
+  *  Benutzer: Die Liste der Nutzer kann eingesehen werden, neue Benutzer können hinzugefügt, bearbeitet und gelöscht werden.
+  *  Konferenz: Anpassungen der Videoqualität und des Bildformates sind möglich. Der Videostream kann auf Wunsch zugeschnitten werden. Ein Ad-hoc-Raum kann aktiviert/deaktiviert und ein Name für diesen persistenten Raum vergeben werden. 
+  *  Aktivieren der Anzeige des Datums im Konferenztitel ist möglich.
 
 ### 4.3 Arbeitsliste mit folgenden Features
 * Manuelles Hinzufügen von Fällen in die Arbeitsliste.
-* Arbeitsliste kann Informationen zu Erstelldatum, Fallnummer, Name, Geburtsdatum, Diagnose, Status und Statusbeschreibung enthalten.
+* Arbeitsliste kann Informationen zu Erstelldatum, Updatedatum, Fallnummer, Name, Geburtsdatum, Diagnose, Status und Statusbeschreibung enthalten.
 * Manuelles Zuweisen und Verändern des Status eines Falls in der Prozesskette von der Diagnostikeinleitung über die Zuweisung zu einer Tumorkonferenz bis zum Speichern des Tumorkonferenz-Empfehlungsprotokolls sind möglich. 
-* Für die Übersichtlichkeit werden die Einträge der Arbeitsliste in drei Registerkarte (Reiter) für aktuelle, abgeschlossene und abgebrochene Fälle angezeigt.
+* Für die Übersichtlichkeit werden die Einträge der Arbeitsliste in drei Listen unterteilt: aktuell, abgeschlossen und abgebrochen.
 * Der Status „Bereit zur Tumorkonferenz“ führt dazu, dass der Fall automatisch in der Komponente Konferenzplaner angezeigt wird.
-* Die Funktion „Einträge filtern“ ermöglicht das Suchen an Hand selbst bestimmbarerer Kriterien über ein Eingabefeld innerhalb der Arbeitsliste.
-* Die Fälle der Arbeitsliste können nach Erstelldatum, Fallnummer, Name, Geburtsdatum, Diagnose, Status sortiert werden.   
+* Die Funktion „Einträge filtern“ ermöglicht das Suchen über ein Eingabefeld innerhalb der Arbeitsliste.
+* Die Fälle der Arbeitsliste können nach Erstelldatum, Updatedatum, Fallnummer, Name, Geburtsdatum, Diagnose sortiert werden.   
 
-### 4.4 Konferenzplaner mit folgenden Features
-*  Manuelles Erstellen von Tumorkonferenzen zu einem bestimmten Termin unter Angabe von Datum, Uhrzeit, Konferenzname.
-*  Hinzufügen von Fällen zu einer bestimmten Tumorkonferenz durch „Drag & Drop“ aus der Liste terminierbarer Fälle.
-*  Einsehen und Löschen der angelegten Termine.
-*  Fallsuche anhand selbst bestimmbarer Kriterien über ein Eingabefeld innerhalb der Liste terminierbarer Fälle.
-*  Konferenzsuche anhand selbst bestimmbarerer Kriterien über ein Eingabefeld innerhalb des Planers.  
-* Hinzufügen von im HUB hinterlegten Teilnehmern zu Tumorkonferenzen.
+
+### 4.4 Konferenzplaner (kurz: Planer) mit folgenden Features 
+* Manuelles Erstellen von Tumorkonferenzen zu einem bestimmten Termin unter Angabe von Datum, Uhrzeit, Konferenzname.
+* Hinzufügen von Fällen zu einer bestimmten Tumorkonferenz durch „Drag & Drop“ aus der Liste terminierbarer Fälle.
+* Einsehen und Löschen der angelegten Termine.
+* Fallsuche über ein Eingabefeld innerhalb der Liste terminierbarer Fälle.
+* Konferenzsuche über ein Eingabefeld innerhalb des Planers.  
+* Hinzufügen von im System hinterlegten Teilnehmern zu Tumorkonferenzen. Führt zur Berechtigung des zugefügten Teilnehmers den Videokonferenzraum (siehe Punkt 4.5) zu sehen und betreten zu können.
+* Serientermine sind in Release 2019.3 nicht funktional, jedoch können angelegte Konferenzen geklont werden. Zugewiesene Teilnehmer werden hierbei übernommen. Name, Datum und Uhrzeit können beim Klonprozess bearbeitet werden.
 
 ### 4.5 Videokonferenz mit folgenden Features
-* Konferenzsuche anhand selbst bestimmbarerer Kriterien über ein Eingabefeld innerhalb der Komponente Videokonferenz.
-* Auswahl des Videokonferenzraumes, in die der Teilnehmer eingeladen wurde. Je nach Rollenzuweisung ist es hier möglich, dass der Teilnehmer direkt in die angelegte Tumorkonferenz geleitet wird. Es werden nur Termine angezeigt zu denen man zugewiesen wurde.
+* Konferenzsuche über ein Eingabefeld innerhalb der Komponente Videokonferenz.
+* Auswahl des Videokonferenzraumes, in die der Teilnehmer eingeladen wurde. Je nach Rollenzuweisung ist es hier möglich, dass der Teilnehmer direkt in den Vorraum der angelegten Tumorkonferenz geleitet wird. Es werden nur Termine angezeigt zu denen man zugewiesen wurde (siehe Punkt 4.4).
 * Zugang zu einem persistenten Raum möglich, hier können absichtlich keine Fälle hinzugefügt werden.
-* Nach Auswahl der Videokonferenz findet eine Weiterleitung statt, um der Videokonferenz beizutreten muss aktiv der Eintritt bestätigt werden.
+* Nach Auswahl der Videokonferenz findet eine Weiterleitung statt, um der Videokonferenz beizutreten muss aktiv der Eintritt bestätigt werden (Vorraum).
 * Die Videokonferenz an sich beinhaltet eine Kachel mit eigenem Bild und weitere Kacheln, sobald sich weitere Teilnehmer einloggen.
 * In unterschiedlichen Registerkarten (Reitern) können Teilnehmerliste, Chat, Fallliste und Einstellungen ausgewählt werden ohne die laufende Videokonferenz zu unterbrechen.
 *  Die Teilnehmerliste listet alle eingeloggten Teilnehmer auf.
@@ -66,19 +73,20 @@ Der Feature Release 2019.2 beinhaltet die funktionellen Komponenten:
 * Das Videobild (auch ein geteilter Bildschirm) kann auf Vollbild gestellt werden. Beenden (über ESC) des Vollbildmodus ist möglich ohne die laufende Videokonferenz zu unterbrechen.
 * Die eigene Bild-/und Tonübertragung kann auf Wunsch unterbrochen werden ohne die laufende Videokonferenz zu unterbrechen.
 * Durch Anzeige des Verbindungssymbols kann die Verbindungsqualität jedes einzelnen Teilnehmers wahrgenommen werden, schlechte Verbindungsqualität wird in rot dargestellt.
-* Verlassen über den Button Videokonferenz verlassen ist möglich.
+* Verlassen über den Button "Videokonferenz verlassen" ist möglich.
 
 ### 4.6 Protokoll mit folgenden Features
-* Die Komponente Protokoll befindet sich im Aufbau und wird mit Release 2019.3 für den Usecase Molekulares Tumorboard zur Verfügung gestellt.
+* Die Komponente Protokoll befindet sich im Aufbau und wird mit Release 2020.1 für den Usecase Molekulares Tumorboard auf Wunsch zur Verfügung gestellt.
 
 ## 5. Was bietet MOLIT?
   *  Kostenloser Support bei Meldung von Bugs (Bugreport & Bugfixes).
   *  Projektbezogene Kooperationen für die gemeinsame Weiterentwicklung von Komponeneten des MOLIT Frameworks.
   *  Unterstützung durch IT-Dienstleistungen [zu den Details](https://molit.eu/projekte/dienstleistungen/). 
+  *  Schulungen im Umgang mit Komponenten des MOLIT-Frameworks
 
 ## 6. Was muss selbst erbracht werden?
 *  Download des gewünschten **VITU** Releases über [GitHub](https://github.com/molit-institute/). 
-*  Die technischen Voraussetzungen für den gewünschten Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen VITU 2019.2](https://github.com/molit-institute/vitu-docs/blob/master/docs/v2019.2/guide/requirements.md) einzusehen.
+*  Die technischen Voraussetzungen für den gewünschten Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen VITU 2019.3](https://github.com/molit-institute/vitu-docs/blob/master/docs/v2019.3/guide/requirements.md) einzusehen.
 
 
 <pdf-download />
