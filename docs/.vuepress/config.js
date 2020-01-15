@@ -68,12 +68,6 @@ module.exports = {
                 "requirements",
                 "architecture"
               ]
-            },
-            {
-              title: "Installation", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: []
             }
           ],
           "/v2019.2/guide/": [
@@ -85,16 +79,20 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture",
-                "faq",
-                "manual"
+                "architecture"
               ]
             },
             {
-              title: "Installation", // required
+              title: "Ticketsystem", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: []
+              children: ["manual"]
+            },
+            {
+              title: "FAQ", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["faq"]
             }
           ],
           "/v2019.3/guide/": [
@@ -106,16 +104,20 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture",
-                "faq",
-                "manual"
+                "architecture"
               ]
             },
             {
-              title: "Installation", // required
+              title: "Ticketsystem", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: []
+              children: ["manual"]
+            },
+            {
+              title: "FAQ", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["faq"]
             }
           ]
         }
@@ -159,12 +161,6 @@ module.exports = {
                 "requirements",
                 "architecture"
               ]
-            },
-            {
-              title: "Installation", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: []
             }
           ],
           "/en/v2019.2/guide/": [
@@ -176,19 +172,23 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture",
-                "faq",
-                "manual"
+                "architecture"
               ]
             },
             {
-              title: "Installation", // required
+              title: "Ticketsystem", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: []
+              children: ["manual"]
+            },
+            {
+              title: "FAQ", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["faq"]
             }
           ],
-          "/en/v2019.2/guide/": [
+          "/en/v2019.3/guide/": [
             {
               title: "Information", // required
               collapsable: false, // optional, defaults to true
@@ -197,16 +197,20 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture",
-                "faq",
-                "manual"
+                "architecture"
               ]
             },
             {
-              title: "Installation", // required
+              title: "Ticketsystem", // required
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
-              children: []
+              children: ["manual"]
+            },
+            {
+              title: "FAQ", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: ["faq"]
             }
           ]
         }
