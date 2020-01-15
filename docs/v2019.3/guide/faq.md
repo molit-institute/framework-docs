@@ -2,18 +2,50 @@
 
 <print-header />
 
-### Für die häufigsten Fragen, denen Sie bei der Nutzung unserer Plattform begegnen können, finden Sie im Folgenden eine Übersicht, die Ihnen weiterhilft. Konnten wir Ihre Frage nicht zufriedenstellend beantworten, wenden Sie sich bitte an uns über unser [Ticketsystem](https://ticket.molit.eu/#signup).
+Für die häufigsten Fragen, denen Sie bei der Nutzung unserer Plattform begegnen können, finden Sie im Folgenden eine Übersicht, die Ihnen weiterhilft. Konnten wir Ihre Frage nicht zufriedenstellend beantworten, wenden Sie sich bitte an uns über unser [Ticketsystem](https://ticket.molit.eu/#signup).
+
+::: tip Tipp
+Sie können die Suchfunktion in der Navigationsleiste nutzen um nach Schlagwörtern zu suchen.
+:::
+
+<br>
+<div class="questions">
+
+### Wie installiere ich VITU?
+
+--
+
+### Findet bei VITU ein automatischer Restart der VITU Server nach Linux-Sicherupdates statt und wird dabei ein Script angelegt?
+
+--
+
+### Was muss ich tun, damit von VITU eine Sicherungskopie erstellt wird?
+
+--
+
+### Welchen Browser kann ich nutzen?
+
+Firefox Version [Firefox 65+] und Google Chrome Version [Chrome 58+] und Safari Version [13+].
+
+### Welches Betriebssystem kann ich nutzen?
+
+--
+
+### Ich habe mein Passwort vergessen. Wie kann ich mich anmelden?
+
+VITU nutzt als Benutzerverwaltung Keycloak. Wenn Sie Ihr Passwort vergessen haben klicken Sie bitte auf der Log In Seite auf "Passwort vergessen?" und nutzen den Self-Service.
+
+### Wie weise ich Rollen zu?
+
+Sie können einem Benutzer nur Rollen zuweisen, wenn sie selbst Administrationsrechte besitzen. Dann kommen sie oben in der Leiste rechts über den Schraubenschlüssel in den Administrationsbereich. Dort können sie über 'Benutzer' denjenigen Benutzer auswählen, dem sie eine Rolle zuweisen möchten. Haben sie den Benutzer ausgewählt, sehen sie im dritten Abschnitt, welche Rollen dieser Benutzer besitzt und welche nicht. Hier können sie die Änderungen vornehmen.
+
+### Wie füge ich Teilnehmer zu einer Konferenz bzw. einem Videokonferenzraum hinzu?
+
+Sie können Teilnehmer zu einer Konferenz hinzufügen, indem sie im Reiter 'Planer' eine Konferenz auswählen. Sobald sie darauf klicken, erscheint das Konferenzfenster, in dem sie aus einer Liste alle verfügbaren Teilnehmer auswählen können. Endgültig hinzugefügt werden diese wenn sie auf den Button 'Hinzufügen' klicken. Unter dem Auswahlmenü sehen sie, welche Teilnehmer der Konferenz bisher hinzugefügt wurden.
+
 
 | Frage | Antwort |
 | ------ | ------ |
-| Wie installiere ich VITU? | ... | 
-| Findet bei VITU ein automatischer Restart der VITU Server nach Linux-Sicherupdates statt und wird dabei ein Script angelegt?| ... | 
-| Was muss ich tun, damit von VITU eine Sicherungskopie erstellt wird? | ... | 
-| Welchen Browser kann ich nutzen? | Firefox Version [Firefox 65+] und Google Chrome Version [Chrome 58+] und Safari Version [13+]. | 
-| Welches Betriebssystem kann ich nutzen? | ... | 
-| Ich habe mein Passwort vergessen. Wie kann ich mich anmelden? | VITU nutzt als Benutzerverwaltung Keycloak. Wenn Sie Ihr Passwort vergessen haben klicken Sie bitte auf der Log In Seite auf "Passwort vergessen?" und nutzen den Self-Service. | 
-| Wie weise ich Rollen zu? | Sie können einem Benutzer nur Rollen zuweisen, wenn sie selbst Administrationsrechte besitzen. Dann kommen sie oben in der Leiste rechts über den Schraubenschlüssel in den Administrationsbereich. Dort können sie über 'Benutzer' denjenigen Benutzer auswählen, dem sie eine Rolle zuweisen möchten. Haben sie den Benutzer ausgewählt, sehen sie im dritten Abschnitt, welche Rollen dieser Benutzer besitzt und welche nicht. Hier können sie die Änderungen vornehmen. | 
-| Wie füge ich Teilnehmer zu einer Konferenz bzw. einem Videokonferenzraum hinzu? | Sie können Teilnehmer zu einer Konferenz hinzufügen, indem sie im Reiter 'Planer' eine Konferenz auswählen. Sobald sie darauf klicken, erscheint das Konferenzfenster, in dem sie aus einer Liste alle verfügbaren Teilnehmer auswählen können. Endgültig hinzugefügt werden diese wenn sie auf den Button 'Hinzufügen' klicken. Unter dem Auswahlmenü sehen sie, welche Teilnehmer der Konferenz bisher hinzugefügt wurden.   |
 | Wie füge ich Fälle zu einer Konferenz hinzu? | Sobald sie Fälle in den Status "Bereit zur Tumorkonferenz" gesetzt haben, erscheinen diese im Konferenzplaner. Dort können sie die Fälle per Drag&Drop auf die gewünschte Konferenz ziehen. Der Fall wird dann zu dieser Konferenz hinzugefügt. | 
 |Warum kann ich meinen angelegten User nicht in VITU in der Liste sehen? | ... | 
 | Warum kann ich meinen User keinem Videokonferenzraum zuordnen? | ... | 
@@ -40,7 +72,6 @@
 | Wieso kann ich andere in der Videokonferenz nicht hören? | Sind ihre Lautsprecher eingeschaltet? Haben sie die Tonlautstärke laut genug eingestellt?|
 | Warum können andere Teilnehmer in der Videokonferenz mich nicht hören? | Ist ihr Mikrofon eingeschaltet? Ist ihr Mikrofon mit dem PC verbunden? Haben sie sich selbst eventuell stumm geschaltet? Haben Sie den Zugriff des Mikrofons erlaubt?|
 
-
-![](/docs/.vuepress/assets/img/manuel/image1.png)
+</div>
 
 <pdf-download />

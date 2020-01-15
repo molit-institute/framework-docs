@@ -1,7 +1,7 @@
 # Technische Voraussetzungen
 
 ::: warning
-Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.2/guide/requirements).
+Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.3/guide/requirements).
 :::
 
 <print-header/>

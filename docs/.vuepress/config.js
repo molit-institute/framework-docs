@@ -57,44 +57,6 @@ module.exports = {
         ],
         algolia: {},
         sidebar: {
-          "/v2019.1/guide/": [
-            {
-              title: "Informationen", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: [
-                "",
-                "release-description",
-                "requirements",
-                "architecture"
-              ]
-            }
-          ],
-          "/v2019.2/guide/": [
-            {
-              title: "Informationen", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: [
-                "",
-                "release-description",
-                "requirements",
-                "architecture"
-              ]
-            },
-            {
-              title: "Ticketsystem", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: ["manual"]
-            },
-            {
-              title: "FAQ", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: ["faq"]
-            }
-          ],
           "/v2019.3/guide/": [
             {
               title: "Informationen", // required
@@ -118,6 +80,32 @@ module.exports = {
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
               children: ["faq"]
+            }
+          ],
+          "/v2019.2/guide/": [
+            {
+              title: "Informationen", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            }
+          ],
+          "/v2019.1/guide/": [
+            {
+              title: "Informationen", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
             }
           ]
         }
@@ -150,44 +138,6 @@ module.exports = {
           }
         ],
         sidebar: {
-          "/en/v2019.1/guide/": [
-            {
-              title: "Information", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: [
-                "",
-                "release-description",
-                "requirements",
-                "architecture"
-              ]
-            }
-          ],
-          "/en/v2019.2/guide/": [
-            {
-              title: "Information", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: [
-                "",
-                "release-description",
-                "requirements",
-                "architecture"
-              ]
-            },
-            {
-              title: "Ticketsystem", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: ["manual"]
-            },
-            {
-              title: "FAQ", // required
-              collapsable: false, // optional, defaults to true
-              sidebarDepth: 1, // optional, defaults to 1
-              children: ["faq"]
-            }
-          ],
           "/en/v2019.3/guide/": [
             {
               title: "Information", // required
@@ -211,6 +161,32 @@ module.exports = {
               collapsable: false, // optional, defaults to true
               sidebarDepth: 1, // optional, defaults to 1
               children: ["faq"]
+            }
+          ],
+          "/en/v2019.2/guide/": [
+            {
+              title: "Information", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
+            }
+          ],
+          "/en/v2019.1/guide/": [
+            {
+              title: "Information", // required
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1, // optional, defaults to 1
+              children: [
+                "",
+                "release-description",
+                "requirements",
+                "architecture"
+              ]
             }
           ]
         }
