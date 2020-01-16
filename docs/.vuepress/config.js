@@ -20,13 +20,13 @@ module.exports = {
     // As a special case, the default locale can use '/' as its path.
     "/": {
       lang: "de-DE",
-      title: "VITU Docs",
-      description: "Dokumentation für das Virtuelle Tumorboard VITU"
+      title: "MOLIT Docs",
+      description: "Dokumentation für das MOLIT Framework"
     },
     "/en/": {
       lang: "en-US", // this will be set as the lang attribute on <html>
-      title: "VITU Docs",
-      description: "Documentation for the Virtual Tumor Board VITU"
+      title: "MOLIT Docs",
+      description: "Documentation for the MOLIT Framework"
     }
   },
 
