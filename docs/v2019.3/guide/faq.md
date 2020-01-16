@@ -13,43 +13,43 @@ Sie können die Suchfunktion in der Navigationsleiste nutzen um nach Schlagwört
 
 ### Wie installiere ich VITU?
 
---
+Schauen Sie in unsere Installationshinweise.  
 
 ### Findet bei VITU ein automatischer Restart der VITU Server nach Linux-Sicherupdates statt und wird dabei ein Script angelegt?
 
---
+Ja. Alle Komponenten des MOLIT Frameworks können als systemd Services angelegt werden. 
 
 ### Was muss ich tun, damit von VITU eine Sicherungskopie erstellt wird?
 
---
+Automatische Sicherheitskopien der VMs müssen in Eigenverantwortung des Nutzers erstellt werden. MOLIT empfiehlt das Tool [pg_dumpall](https://www.postgresql.org/docs/current/app-pg-dumpall.html) in Verbindung mit Cron zu nutzen, um Datenbankbackups auf dem Dateisystem zu erstellen.
 
 ### Welchen Browser kann ich nutzen?
 
-Firefox Version [Firefox 65+] und Google Chrome Version [Chrome 58+] und Safari Version [13+].
+* Firefox Version [Firefox 65+]
+* Google Chrome Version [Chrome 58+]
+* Safari Version [13+]
+* Microsoft Edge (Chromium) Version [81+]
 
-### Welches Betriebssystem kann ich nutzen?
-
---
 
 ### Ich habe mein Passwort vergessen. Wie kann ich mich anmelden?
 
 VITU nutzt als Benutzerverwaltung Keycloak. Wenn Sie Ihr Passwort vergessen haben klicken Sie bitte auf der Log In Seite auf "Passwort vergessen?" und nutzen den Self-Service.
 
-### Wie viele Teilnehmer können an einer Videokonferenz teilnehmen und VITU läuft dabei flüssig?
+### Wie viele Teilnehmer können an einer Videokonferenz teilnehmen?
 
 Abhängig von den Konferenzeinstellungen (Administrationsbereich). Von MOLIT getestet und für geeignet bewertet sind bis zu acht Teilnehmer bei Video und Tonübertragung. Bei mehr Teilnehmern empfiehlt MOLIT auf die Videoübertragung zu verzichten. 
 
 ### Wie deaktiviere ich die Videoübertragung meines Bildes?
 
-Klicken Sie in Ihrer Videokonferenz unter Ihrem übertragenen Bild auf das Videokamerasymbol. Durch erneute Auswahl des Symols aktivieren Sie die Bildübertragung wieder.
+Klicken Sie in Ihrer Videokonferenz unter Ihrem übertragenen Bild auf das Videokamerasymbol. Durch erneute Auswahl des Symbols aktivieren Sie die Bildübertragung wieder.
 
 ###  Wie viele Videokonferenzen können parallel flüssig laufen? 
 
-Abhängig von den Konferenzeinstellungen (Administrationsbereich) und der Kapazität der virtuellen Maschine (VM). Von MOLIT nicht getestet, jedoch sind drei parallele Konferenzen mit je 8 Teilnehmern realistisch.
+Die Performance ist abhängig von den Konferenzeinstellungen (Administrationsbereich) und der Kapazität der virtuellen Maschine (VM). Siehe: https://www.researchgate.net/publication/300727546_Performance_analysis_of_the_Janus_WebRTC_gateway. 
 
 ### Wie weise ich Rollen zu?
 
-Sie können einem Benutzer nur Rollen zuweisen, wenn sie selbst Administrationsrechte besitzen. Dann kommen sie oben in der Leiste rechts über den Schraubenschlüssel in den Administrationsbereich. Dort können sie über 'Benutzer' denjenigen Benutzer auswählen, dem sie eine Rolle zuweisen möchten. Haben sie den Benutzer ausgewählt, sehen sie im dritten Abschnitt, welche Rollen dieser Benutzer besitzt und welche nicht. Hier können sie die Änderungen vornehmen.
+Sie können einem Benutzer nur Rollen zuweisen, wenn Sie selbst Administrationsrechte besitzen. Dann kommen Sie oben in der Leiste rechts über den Schraubenschlüssel in den Administrationsbereich. Dort können Sie über 'Benutzer' denjenigen Benutzer auswählen, dem sie eine Rolle zuweisen möchten. Haben Sie den Benutzer ausgewählt, sehen Sie im dritten Abschnitt, welche Rollen diesem Benutzer zugewiesen wurden. Hier können Sie die Änderungen vornehmen.
 
 ### Wie erstelle ich eine neue Konferenz? 
 
@@ -57,19 +57,19 @@ Navigieren Sie in die Komponente Planer und wählen Sie "neue Konferenz anlegen"
 
 ### Wie kann ich regelmäßige Termine anlegen?
 
-Sie können mit Release 2019.3 noch keine regelmäßigen Termine im Planer eintragen, jedoch können einzeltermine geklont werden. [Siehe: Wie klone ich eine Konferenz?]  
+Sie können mit Release 2019.3 noch keine regelmäßigen Termine im Planer eintragen, jedoch können Einzeltermine geklont werden. Siehe: [Wie klone ich eine Konferenz?](#wie-klone-ich-eine-konferenz)  
 
 ### Wie klone ich eine Konferenz?
 
-Wählen sie im Planer die Konferenz, die sie klonen möchten und wählen im Auswahlmenü "Konferenz klonen". Zugewiesene Teilnehmer werden hierbei übernommen. Name, Datum und Uhrzeit können beim Klonprozess bearbeitet werden. 
+Wählen Sie im Planer die Konferenz, die Sie klonen möchten und wählen im Auswahlmenü "Konferenz klonen". Zugewiesene Teilnehmer werden hierbei übernommen. Name, Datum und Uhrzeit können beim Klonprozess bearbeitet werden. 
 
 ### Wie füge ich Teilnehmer zu einer Konferenz bzw. einem Videokonferenzraum hinzu?
 
-Sie können Teilnehmer zu einer Konferenz hinzufügen, indem sie im Reiter 'Planer' eine Konferenz auswählen. Sobald sie darauf klicken, erscheint das Konferenzfenster, in dem sie aus einer Liste alle verfügbaren Teilnehmer auswählen können. Endgültig hinzugefügt werden diese wenn sie auf den Button 'Hinzufügen' klicken. Unter dem Auswahlmenü sehen sie, welche Teilnehmer der Konferenz bisher hinzugefügt wurden.
+Sie können Teilnehmer zu einer Konferenz hinzufügen, indem Sie im Reiter 'Planer' eine Konferenz auswählen. Sobald Sie darauf klicken, erscheint das Konferenzfenster, in dem Sie aus einer Liste alle verfügbaren Teilnehmer auswählen können. Endgültig hinzugefügt werden diese wenn Sie auf den Button 'Hinzufügen' klicken. Unter dem Auswahlmenü sehen Sie, welche Teilnehmer der Konferenz bisher hinzugefügt wurden.
 
 ### Wie füge ich Fälle zu einer Konferenz hinzu?
 
-Sobald sie Fälle in den Status "Bereit zur Tumorkonferenz" gesetzt haben, erscheinen diese im Konferenzplaner. Dort können sie die Fälle per Drag&Drop auf die gewünschte Konferenz ziehen. Der Fall wird dann zu dieser Konferenz hinzugefügt.
+Sobald Sie Fälle in den Status "Bereit zur Tumorkonferenz" gesetzt haben, erscheinen diese im Konferenzplaner. Dort können Sie die Fälle per Drag&Drop auf die gewünschte Konferenz ziehen. Der Fall wird dann zu dieser Konferenz hinzugefügt.
 
 ### Warum kann ich einen Fall nicht einer Konferenz zuordnen?
 
@@ -77,29 +77,13 @@ Der Fall benötigt den Status "Bereit zur Tumorkonferenz".
 
 ### Meine Konferenz von vorgestern wird nicht mehr angezeigt. Finde ich sie nochmal?
 
-Aktuell werden Termine, die in der Vergangenheit liegen nur für den Zeitraum von 24h angezeigt. Für den Wunsch einer Änderung wenden Sie sich bitte an das MOLIT Institut, damit Anpassungen für einen Folgerelease ggf. vorgenommen werden.
-
-### Ich habe Probleme bei der Videokonferenz: Ich bin allein in der Videokonferenz. Warum sehe ich keinen anderen Teilnehmer?  
-
----
-
-### Ich habe Probleme bei der Videokonferenz: Ton geht nicht, Bild geht nicht, ich sehe andere nicht, etc. Was kann ich tun?
-
-Mit Release 2020.1 wird ein Webcamtest in VITU integriert sein. Klicken Sie auf den Link zum Webcamtest und nutzen Sie die empfohlenen Browser und Versionen. [Siehe: Welchen Browser kann ich nutzen?]  
-Steht Ihnen kein Button zur Verfügung, empfehlen wir Ihnen folgendes Vorgehen zum Testen der Verbindung von VITU: 
-* Zur Teilnahme an der Videokonferenz von VITU sind eine Webcam und ein Mikrofon nötig. 
-* Stellen Sie sicher, dass die den Geräten den Zugriff erlaubt haben.
-* Unsere Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt.
-* **Falls vorhanden, sollten die ausgehenden Firewallregeln folgende URLs auf port 443 TCP erlauben. Genutzte Protokolle sind hier HTTPS und WebRTC (über TCP)**
-* Um Ihren Browser, sowie Kamera und Mikrofon zu testen, können sie auf: https://webcamtest.molit.eu/ gehen.
-* Hier sollte der Browser Zugriff auf Webcam und Mikrofon verlangen und nach Gewähren dieser Rechte sollten Sie sich selbst sehen.
-* Falls dies nicht Zutrifft setzten Sie sich bitte unter Angabe des Fehlerprotokolls mit Ihrer IT-Stelle auseinander. Kann Ihnen dort nicht geholfen werden, können Sie sich an das MOLIT Institut wenden und dieses zu einer Fehleranalyse beauftragen.
+Aktuell werden Termine, die in der Vergangenheit liegen nur für den Zeitraum von 48h angezeigt. Für den Wunsch einer Änderung wenden Sie sich bitte an das MOLIT Institut, damit Anpassungen für einen Folgerelease ggf. vorgenommen werden.
 
 ### Ich habe Probleme bei der Videokonferenz: Wieso kann ich mein Bild in der Videokonferenz nicht sehen?
 
 * Bitte überprüfen Sie, ob Ihre Videokamera eingeschaltet und mit Ihrem Endgerät (PC) verbunden ist.
 * Bitte überprüfen Sie, ob Ihre Videokamera physisch verriegelt / überklebt.
-* Bitte überprüfen Sie, ob Sie Ihrem Browser den Zugruff auf Ihrer Videokamera erlaubt haben.
+* Bitte überprüfen Sie, ob Sie Ihrem Browser den Zugriff auf Ihrer Videokamera erlaubt haben.
 
 ### Ich habe Probleme bei der Videokonferenz:  Wieso kann ich andere in der Videokonferenz nicht hören? 
 
@@ -112,13 +96,25 @@ Steht Ihnen kein Button zur Verfügung, empfehlen wir Ihnen folgendes Vorgehen z
 * Bitte stellen Sie sicher, dass Ihr Mikrofon eingeschaltet und mit dem Endgerät (PC) verbunden ist.
 * Bitte stellen Sie sicher, dass Sie Ihrem Browser den Zugruff auf Ihr Mikrofon erlaubt haben.
 
+### Ich habe Probleme bei der Videokonferenz: Ton geht nicht, Bild geht nicht, ich sehe andere nicht, etc. Was kann ich noch tun?
+
+Mit Release 2020.1 wird ein Webcamtest in VITU integriert sein. Klicken Sie auf den Link zum Webcamtest und nutzen Sie die empfohlenen Browser und Versionen. Siehe: [Welchen Browser kann ich nutzen?](#welchen-browser-kann-ich-nutzen)  
+Steht Ihnen kein Button zur Verfügung, empfehlen wir Ihnen folgendes Vorgehen zum Testen der Verbindung von VITU: 
+* Zur Teilnahme an der Videokonferenz von VITU sind eine Webcam und ein Mikrofon nötig. 
+* Stellen Sie sicher, dass Sie den Geräten den Zugriff erlaubt haben.
+* Unsere Lösung basiert technisch auf WebRTC, jegliche Kommunikation erfolgt TLS verschlüsselt.
+* Falls vorhanden, sollten die ausgehenden Firewallregeln den Zugriff auf die VITU URLs unter Port 443 TCP erlauben. Genutzte Protokolle sind hier HTTPS und WebRTC (über TCP).
+* Um Ihren Browser, sowie Kamera und Mikrofon zu testen, können Sie auf: https://webcamtest.molit.eu/ gehen.
+* Hier sollte der Browser Zugriff auf Webcam und Mikrofon verlangen und nach Gewähren dieser Rechte sollten Sie sich selbst sehen.
+* Falls dies nicht Zutrifft setzten Sie sich bitte unter Angabe des Fehlerprotokolls (Toggle log Copy) mit Ihrer IT-Stelle auseinander. Kann Ihnen dort nicht geholfen werden, können Sie sich an das MOLIT Institut wenden und für eine Fehleranalyse beauftragen.
+
 ### Wie kann ich den Status eines Falls verändern?
 
-Sie können den Status ihres Falls ändern, indem sie den entsprechenden Eintrag (Zeile) in der Arbeitsliste auswählen. Daraufhin öffnet sich ein Fenster, das eine Bearbeitung des Falls ermöglicht. Sie sehen die Statusleiste unten, in der Sie den Status des Falls festlegen können. In Release 2019.3 sind die Statusänderungen manuelle Schritte. Die Ausnahme ist die Änderung des Status "Bereit für Tumorkonferenz" (Der einzige Status, bei dem ein Fall im Planer gelistet wird und so einer anglegten Videokonferenz zugeordnet werden kann) nach Zuordnung in den Status "Warten auf Fallbesprechung".
+Sie können den Status Ihres Falls ändern, indem Sie den entsprechenden Eintrag (Zeile) in der Arbeitsliste auswählen. Daraufhin öffnet sich ein Fenster, das eine Bearbeitung des Falls ermöglicht. Über das Auswahlfeld "Status" können Sie den Status des Falls ändern. In Release 2019.3 sind die Statusänderungen manuelle Schritte. Die Ausnahme ist die Änderung des Status "Bereit für Tumorkonferenz" (Der einzige Status, bei dem ein Fall im Planer gelistet wird und so einer anglegten Videokonferenz zugeordnet werden kann) nach Zuordnung in den Status "Warten auf Fallbesprechung".
 
 ### Kann ich Status an meine Anforderungen anpassen?
 
-Sie können im Administrationsbereich den Status anpassen, hinzufügen, deaktivieren und in Ihrer Reihenfolge verändern. Hinweis: Die Änderungen wirken sich auf alle Einträge der Arbeitsliste aus. Ein vergebener Status, der nachträglich Deaktiiert wird, wird im folgenden Verlauf rot unterlegt. MOLIT empfiehlt eine Anpassung des Arbeitslisteneintrags mit Statusanpassung. 
+Sie können im Administrationsbereich den Status anpassen, hinzufügen, deaktivieren und in Ihrer Reihenfolge verändern. Hinweis: Die Änderungen wirken sich auf alle Einträge der Arbeitsliste aus. Ein vergebener Status, der nachträglich deaktiviert wird, wird im folgenden Verlauf rot unterlegt. MOLIT empfiehlt eine Anpassung des Arbeitslisteneintrags mit Statusanpassung. 
 
 ### Warum fehlt ein Status in meiner Liste?
 
