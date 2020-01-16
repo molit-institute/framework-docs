@@ -1,5 +1,3 @@
-Veröffentlicht werden soll es unter: https://docs.molit.eu/vitu-docs/v2019.3/guide/release-description.html
-
 # Releasebeschreibung VITU 2019.3
 
 <print-header/>
@@ -86,7 +84,7 @@ Der Feature Release 2019.3 beinhaltet die funktionellen Komponenten:
 
 ## 6. Was muss selbst erbracht werden?
 *  Download des gewünschten **VITU** Releases über [GitHub](https://github.com/molit-institute/). 
-*  Die technischen Voraussetzungen für den gewünschten Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen VITU 2019.3](https://github.com/molit-institute/vitu-docs/blob/master/docs/v2019.3/guide/requirements.md) einzusehen.
+*  Die technischen Voraussetzungen für den gewünschten Release müssen für eine Nutzung von **VITU** selbst realisiert werden. Diese sind unter [Technische Voraussetzungen VITU 2019.3](requirements) einzusehen.
 
 
 <pdf-download />

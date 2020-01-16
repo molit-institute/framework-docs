@@ -1,5 +1,9 @@
 # Technische Voraussetzungen
 
+::: warning
+Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.3/guide/requirements).
+:::
+
 <print-header/>
 
 Die im Folgenden angegebenen Werte sind Richtwerte, die sich je nach Anwendungsfall noch ändern können.

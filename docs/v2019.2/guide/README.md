@@ -1,5 +1,9 @@
 # Einführung  VITU 2019.2
 
+::: warning
+Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.3/guide/).
+:::
+
 <print-header/>
 
 **VITU** steht für **Vi**rtuelles **Tu**morboard und ist eine prozessorientierte Informations- und Kommunikationsplattform zur Unterstützung von Tumorkonferenzen. Entwickelt vom MOLIT Institut ist die Software **VITU** web-basiert und folgt einem zyklischen Entwicklungsplan, mit drei veröffentlichten Releases pro Jahr, die jeweils öffentlich unter einer Open Source Lizenz verfügbar sind.

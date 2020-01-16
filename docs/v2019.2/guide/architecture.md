@@ -1,5 +1,9 @@
 # Beispielarchitektur
 
+::: warning
+Dieser Artikel gilt für eine ältere Version von VITU, für die aktuelle Version klicken Sie bitte [hier](../../v2019.3/guide/architecture).
+:::
+
 <print-header />
 
 ![Architecture](~@assets/img/architecture.png)
