@@ -122,35 +122,23 @@ Anpassungen können im Administrationsbereich eingesehen und vorgenommen werden.
 
 ### Wie kann ich einen Patienten einem Protokoll zuordnen?
 
-Wenn sie ein neues Protokoll erstellen, können sie mit dem Button 'Patient auswählen' einen im System hinterlegten Patienten dem Protokoll zuordnen.
+Wenn Sie ein neues Protokoll erstellen, können Sie mit dem Button 'Patient auswählen' einen im System hinterlegten Patienten dem Protokoll zuordnen.
 
 ### Wie bekomme ich einen Patienten in die Arbeitsliste? 
 
-In der Arbeitsliste können sie unter 'Fall hinzufügen' unter dem ersten Punkt "Patient hinzugfügen" einen neuen Patienten anlegen. Alternativ kann über einen Fremdaufrauf ein Patient aus einem KIS System in VITU importiert werden, wenn die entsprechnde IT-Schnittstelle von beiden Seiten funktional ist. 
+In der Arbeitsliste können Sie unter 'Fall hinzufügen' unter dem ersten Punkt "Patient hinzugfügen" einen neuen Patienten anlegen. Alternativ kann über einen Fremdaufrauf ein Patient aus einem KIS System in VITU importiert werden, wenn entsprechende IT-Schnittstellen vorhanden sind. 
 
 ### Ich finde meinen Patienten nicht in der Arbeitsliste. Was kann ich tun?
 
-Sie können über die Suchfunktion Einträge der Arbeitsliste nach Erstelldatum, Updatedatum, Name und Geburtsdatum filtern. Finden Sie Ihren Patienten nicht könnte er durch Statusänderung in "abgeschlossen" oder "abgebrochen" verschoben worden sein.
-
-### Mein Patient ist nicht mehr in der Arbeitsliste, wo ist er hin?
-
-Je nach Status befinden sich die Einträge ggf. unter "abgeschlossen" oder "abgebrochen". | 
-
-### Warum kann ich meinen angelegten User nicht in VITU in der Liste sehen?
-
---
-
-### Warum kann ich meinen User keinem Videokonferenzraum zuordnen?
-
---
+Sie können über die Suchfunktion Einträge der Arbeitsliste nach Erstelldatum, Updatedatum, Name und Geburtsdatum filtern. Finden Sie Ihren Patienten nicht, könnte er durch Statusänderung in "abgeschlossen" oder "abgebrochen" verschoben worden sein.
 
 ### Warum sehe ich meine Videokonferenz unter Videokonferenzen nicht?
 
-Teilnehmer müssen erst einer Videokonferenz zugewiesen werden.  [Siehe: Wie füge ich Teilnehmer zu einer Konferenz hinzu?]
+Teilnehmer müssen erst einer Videokonferenz zugewiesen werden.  Siehe: [Wie füge ich Teilnehmer zu einer Konferenz hinzu?](#wie-f%C3%BCge-ich-teilnehmer-zu-einer-konferenz-bzw-einem-videokonferenzraum-hinzu)
 
 ### Was wird unter Datenspende verstanden und wozu wird diese Spende benutzt was sind die Ziele?
 
-Ihre Patientendaten sollen für die medizinische Forschung zur Verfügung gestellt werden. Medizinische Forschung dient ausschließlich dazu, die Erkennung, Behandlung und Vorbeugung von Krankheiten zu verbessern; Ihre Patientendaten werden nicht für die Entwicklung biologischer Waffen oder diskriminierende Forschungsziele verwendet. Ebenso ist es nicht Ziel dieser Forschung, bei Ihnen eine Diagnose zu erstellen oder Ihre konkrete Behandlung zu beeinflussen. Ihre Patientendaten sollen im Sinne eines breiten Nutzens für die Allgemeinheit für viele verschiedene medizinische Forschungszwecke verwendet werden. Bei weiterb Fragen weden Sie sich bitte an unseren [Datenschutz] (Datenschutz@molit.eu)
+Ihre Patientendaten sollen für die medizinische Forschung zur Verfügung gestellt werden. Medizinische Forschung dient ausschließlich dazu, die Erkennung, Behandlung und Vorbeugung von Krankheiten zu verbessern; Ihre Patientendaten werden nicht für die Entwicklung biologischer Waffen oder diskriminierende Forschungsziele verwendet. Ebenso ist es nicht Ziel dieser Forschung, bei Ihnen eine Diagnose zu erstellen oder Ihre konkrete Behandlung zu beeinflussen. Ihre Patientendaten sollen im Sinne eines breiten Nutzens für die Allgemeinheit für viele verschiedene medizinische Forschungszwecke verwendet werden. Bei weiterb Fragen weden Sie sich bitte an unseren [Datenschutz](Datenschutz@molit.eu)
 
 ### Welchen Nutzen habe ich von einer Datenspende?
 
@@ -163,7 +151,7 @@ Medizinisch-wissenschaftliche Forschungsvorhaben zielen auf eine Verbesserung un
 
 ### Wie lange gillt meine Einwilligung?
 
-Ihre Einwilligung in die Erhebung von Patientendaten gilt – wenn Sie sie nicht vorher widerrufen [Siehe Punkt: Kann ich meine Einwilligung widerrufen?] – unbegrenzt ab Ihrer Einwilligungserklärung. Das bedeutet, dass in diesem Zeitraum mit vorheriger Ankündigung von Ihnen nochmals Daten gewonnen werden dürfen, ohne dass Sie erneut eine Einwilligungserklärung unterzeichnen müssten. Ihre Einwilligung in die Nutzung der bisher erhobenen Daten bleibt wirksam.
+Ihre Einwilligung in die Erhebung von Patientendaten gilt – wenn Sie sie nicht vorher widerrufen. Siehe: [Kann ich meine Datenspende zurückziehen?](#kann-ich-meine-datenspende-zurückziehen) – unbegrenzt ab Ihrer Einwilligungserklärung. Das bedeutet, dass in diesem Zeitraum mit vorheriger Ankündigung von Ihnen nochmals Daten gewonnen werden dürfen, ohne dass Sie erneut eine Einwilligungserklärung unterzeichnen müssten. Ihre Einwilligung in die Nutzung der bisher erhobenen Daten bleibt wirksam.
 
 ### Kann ich meine Datenspende zurückziehen?
 
@@ -171,7 +159,7 @@ Ihre Einwilligung ist freiwillig!
 Sie können Ihre Einwilligung zur weiteren Erhebung sowie zur wissenschaftlichen Nutzung Ihrer Patientendaten jederzeit ohne Angabe von Gründen und ohne nachteilige Folgen für Sie vollständig oder in Teilen widerrufen.
 Ein Widerruf bezieht sich dabei immer nur auf die künftige Verwendung Ihrer Patientendaten. Daten aus bereits durchgeführten Analysen können nachträglich nicht mehr entfernt werden.
 Im Falle eines Widerrufs werden Ihre auf Grundlage der vorliegenden Einwilligung gespeicherten Patientendaten gelöscht oder anonymisiert, sofern dies gesetzlich zulässig ist. Wenn eine Löschung nicht oder nicht mit zumutbarem technischem Aufwand möglich ist, werden Ihre Patientendaten anonymisiert, indem der Ihnen zugeordnete Identifizierungscode gelöscht wird. Die Anonymisierung Ihrer Patientendaten kann allerdings eine spätere Zuordnung von - insbesondere genetischen - Informationen zu Ihrer Person über andere Quellen niemals völlig ausschließen.
-Für einen Widerruf wenden Sie sich bitte an: [Datenschutz] (Datenschutz@molit.eu)
+Für einen Widerruf wenden Sie sich bitte an: [Datenschutz](Datenschutz@molit.eu)
 
 ### Was bedeutet Pseudonymisiert?
 
@@ -179,7 +167,7 @@ Bei der Erfassung von Patientendaten werden auch Informationen wie Ihr Name und 
 
 ### Was beudetet Anonymisierung?
 
-Bei der Anonymisierung werden Ihre Daten so verändert, dass sie Ihrer Person nicht mehr oder nur mit einem unverhältnismäßig großen technischen Aufwand zugeordnet werden können.
+Bei der Anonymisierung werden Ihre Daten so verändert, dass Sie Ihrer Person nicht mehr oder nur mit einem unverhältnismäßig großen technischen Aufwand zugeordnet werden können.
 
 
 </div>
