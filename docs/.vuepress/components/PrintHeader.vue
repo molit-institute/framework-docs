@@ -2,10 +2,10 @@
   <div class="print-header-wrapper">
     <div class="print-header">
       <div>
-        <img src="../assets/img/logo-molit.png" />
+        <img src="../assets/img/logo.png" />
       </div>
       <div>
-        <img src="../assets/img/logo.png" />
+        <img src="../assets/img/logo-vitu.png" />
       </div>
     </div>
   </div>
