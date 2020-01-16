@@ -1,7 +1,7 @@
 const path = require("path");
 
 const hostname = "https://docs.molit.eu";
-const base = "/framework-docs/";
+const base = "/molit-docs/";
 
 module.exports = {
   base,
