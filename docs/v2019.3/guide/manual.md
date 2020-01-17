@@ -1,6 +1,8 @@
 
 # Handbuch
 
+<print-header />
+
 [[toc]]
 
 ## 1. Allgemeine Informationen
@@ -130,3 +132,5 @@ Durch Klick auf den Button „Erstellen", wird ein Ticket erzeugt, welches bei I
 Abbildung : Verlauf eines Tickets
 
 Sollte ein Agent Ihnen eine Nachricht auf Ihrem Ticket hinterlassen haben, werden Sie über eine E-Mail davon unterrichtet. Agent können Ihnen auch auf Wunsch per Mail aus dem Ticket heraus E-Mails zusenden. Sie können auf diese E-Mails direkt antworten, ohne in das Ticket System zu gehen. Diese Mails werden automatisch dem Ticket zugeordnet und sind hier im Verlauf zu sehen. Die bevorzugte Kommunikationsweise ist und bleibt aber über das Ticketsystem Zammad.
+
+<pdf-download />

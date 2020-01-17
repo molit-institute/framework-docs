@@ -66,7 +66,8 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture"
+                "architecture",
+                "installation-notes"
               ]
             },
             {
@@ -147,7 +148,8 @@ module.exports = {
                 "",
                 "release-description",
                 "requirements",
-                "architecture"
+                "architecture",
+                "installation-notes"
               ]
             },
             {

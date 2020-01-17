@@ -167,31 +167,3 @@ Bei der Erfassung von Patientendaten werden auch Informationen wie Ihr Name und 
 Bei der Anonymisierung werden Ihre Daten so verändert, dass Sie Ihrer Person nicht mehr oder nur mit einem unverhältnismäßig großen technischen Aufwand zugeordnet werden können.
 
 <pdf-download />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
