@@ -12,7 +12,7 @@ module.exports = {
       "link",
       { rel: "shortcut icon", type: "image/x-icon", href: "/favicon.ico" }
     ],
-    ["meta", { name: "theme-color", content: "#148898" }]
+    ["meta", { name: "theme-color", content: "#004a6b" }]
   ],
 
   locales: {

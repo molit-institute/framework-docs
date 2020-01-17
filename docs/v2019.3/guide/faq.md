@@ -8,9 +8,6 @@ Für die häufigsten Fragen, denen Sie bei der Nutzung unserer Plattform begegne
 Sie können die Suchfunktion in der Navigationsleiste nutzen um nach Schlagwörtern zu suchen.
 :::
 
-<br>
-<div class="questions">
-
 ### Wie installiere ich VITU?
 
 Schauen Sie in unsere Installationshinweise.  
@@ -168,9 +165,6 @@ Bei der Erfassung von Patientendaten werden auch Informationen wie Ihr Name und 
 ### Was beudetet Anonymisierung?
 
 Bei der Anonymisierung werden Ihre Daten so verändert, dass Sie Ihrer Person nicht mehr oder nur mit einem unverhältnismäßig großen technischen Aufwand zugeordnet werden können.
-
-
-</div>
 
 <pdf-download />
 
