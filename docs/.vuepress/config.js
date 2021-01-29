@@ -206,10 +206,7 @@ module.exports = {
 
   plugins: {
     sitemap: {
-      hostname: hostname + base,
-      dateFormatter: val => {
-        return new Date().toISOString()
-      }
+      hostname: hostname + base
     }
   }
 };
