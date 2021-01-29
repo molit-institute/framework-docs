@@ -16,8 +16,16 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Build 🔧 
-        run: npm run docs:build
+      # Setup .npmrc file
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12
+
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          npm run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
