@@ -16,7 +16,7 @@ Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller Kompone
 ### VM1: VITU
 
 - Funktion: Stellt die VITU Applikation bereit, Reverseproxy für Data Server
-- Betriebssystem: Ubuntu Server 18.04 LTS
+- Betriebssystem: Ubuntu Server 20.04 LTS
 - Arbeitsspeicher: 4GB RAM
 - Prozessor: Quad Core @2Ghz
 - Öffentliches Netzwerk: Port 80 und 443 müssen für Nutzer erreichbar sein
@@ -25,7 +25,7 @@ Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller Kompone
 
 ### VM2: Videoserver
 
-- Betriebssystem: Ubuntu Server 18.04 LTS
+- Betriebssystem: Ubuntu Server 20.04 LTS
 - Arbeitsspeicher: 8GB RAM
 - Prozessor: Quad Core @2Ghz
 - Öffentliches Netzwerk: Port 80 und 443 müssen für Nutzer erreichbar sein
@@ -35,7 +35,7 @@ Spezielle Hardware-Anforderungen zur Installation der VITU Instanz aller Kompone
 
 ### VM3: Data
 
-- Betriebssystem: Ubuntu Server 18.04 LTS
+- Betriebssystem: Ubuntu Server 20.04 LTS
 - Arbeitsspeicher: 8GB RAM
 - Prozessor: Quad Core @2Ghz
 - Internes Netzwerk: Portfreigabe für Port 8088 (muss nur von VITU-VM erreichbar sein)
