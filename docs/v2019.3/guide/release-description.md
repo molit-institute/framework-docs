@@ -73,8 +73,8 @@ Der Feature Release 2019.3 beinhaltet die funktionellen Komponenten:
 * Die Komponente Protokoll befindet sich im Aufbau und wird mit Release 2020.1 für den Usecase Molekulares Tumorboard auf Wunsch zur Verfügung gestellt.
 
 ## 4. Was bietet MOLIT?
-  *  Projektbezogene Kooperationen für die gemeinsame Weiterentwicklung von Komponenten des MOLIT Frameworks.
-  *  Unterstützung durch IT-Dienstleistungen [zu den Details](https://molit.eu/projekte/dienstleistungen/). 
+  *  Projektbezogene Kooperationen für die gemeinsame Weiterentwicklung von Komponenten des MOLIT Frameworks
+  *  Unterstützung durch IT-Dienstleistungen 
   *  Schulungen im Umgang mit Komponenten des MOLIT-Frameworks
 
 
